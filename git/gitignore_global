@@ -1,0 +1,17 @@
+.idea/
+.DS_Store
+dev-tools
+tags
+tags.lock
+tags.temp
+.remote-build.cfg
+.virtualgo
+.vscode
+.vim
+
+#
+pipfile
+pipfile.lock
+
+#
+.nvmrc

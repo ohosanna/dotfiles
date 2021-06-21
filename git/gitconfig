@@ -1,0 +1,6 @@
+[user]
+	email = ohosanna@gmail.com
+	name = hosanna
+	editor = vim
+[credential]
+	helper = store
