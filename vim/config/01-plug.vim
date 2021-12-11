@@ -386,7 +386,8 @@ let g:dracula_undercurl = 1
 let g:dracula_inverse = 1
 let g:dracula_colorterm = 1
 Plug 'colepeters/spacemacs-theme.vim'
-Plug 'fatih/molokai'
+" Plug 'fatih/molokai'
+Plug 'tomasr/molokai'
 let g:molokai_original = 1
 let g:rehash256 = 1
 
@@ -409,7 +410,7 @@ Plug 'docunext/closetag.vim'
 let g:closetag_html_style=1
 
 " Comment shortcuts
-Plug 'scrooloose/nerdcommenter'
+Plug 'preservim/nerdcommenter'
 let g:NERDSpaceDelims=1
 
 " Plug 'nathanaelkane/vim-indent-guides'
