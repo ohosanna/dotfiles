@@ -1,0 +1,41 @@
+################################################################################
+#
+# What to run on Sway startup
+#
+################################################################################
+
+# TIP: Currently I don't know of any clean way of creating complex layouts
+# within a single workspace on startup. The only hacky solution I know about is
+# using timeouts with `sleep` command, e.g.:
+#
+#   sleep 0.3s && swaymsg "exec <command>"
+
+
+### Define some constants
+
+#set $neovim $term --title "Neovim" --command nvim
+
+
+### Run applications
+
+#exec firefox-developer-edition
+#exec thunderbird
+#exec $neovim
+# xwayland force scale 2
+exec xsettingsd
+exec kanshi
+exec dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK
+exec swaymsg "workspace $workspace_terminals; exec $term"
+# exec_always fcitx5 -d --replace
+exec_always /usr/libexec/fcitx5-wayland-launcher
+#exec udiskie
+#exec stretchly
+
+exec mako
+exec xrdb ~/.Xresources
+#exec waybar
+# exec --no-startup-id  fcitx -r
+
+### Set focus
+
+focus output $output_monitor

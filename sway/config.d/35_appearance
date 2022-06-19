@@ -1,0 +1,25 @@
+################################################################################
+#
+# Appearance
+#
+################################################################################
+
+
+# Set font (default was monospace)
+#font pango:system-ui 14px
+font pango:Sarasa-Mono-SC-Nerd 14px
+
+# Set wallpaper randomly from a selection
+output "*" bg `ls -1 ~/Pictures/wallpapers/* | sort -R | head -1` fill
+
+# Gaps
+gaps inner 1
+
+# Gtk themes
+set $gnome-schema org.gnome.desktop.interface
+exec_always {
+    gsettings set $gnome-schema gtk-theme 'Yaru-dark'
+    gsettings set $gnome-schema icon-theme 'Yaru-dark'
+    gsettings set $gnome-schema cursor-theme 'Breeze'
+    gsettings set $gnome-schema font-name 'Sarasa Mono SC Nerd 12'
+}

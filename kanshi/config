@@ -1,0 +1,14 @@
+profile {
+    output eDP-1 enable scale 1.75 position 0,0
+    exec sh -c "swaymsg xwayland scale 1.75; echo Gdk/WindowScalingFactor 1.75 > ~/.config/xsettingsd/xsettingsd.conf; killall -HUP xsettingsd"
+}
+
+profile {
+    output HDMI-A-1 enable scale 1 position 1755,0
+    exec sh -c "swaymsg xwayland scale 1; echo Gdk/WindowScalingFactor 1 > ~/.config/xsettingsd/xsettingsd.conf; killall -HUP xsettingsd"
+}
+
+profile {
+    output DP-1 enable scale 1 position 3675,0
+    exec sh -c "swaymsg xwayland scale 0.8; echo Gdk/WindowScalingFactor 0.8 > ~/.config/xsettingsd/xsettingsd.conf; killall -HUP xsettingsd"
+}
