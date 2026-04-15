@@ -1,9 +1,9 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR --export ANDROID_HOME:/Users/chaos/Library/Android/sdk/
-SETUVAR --export ANDROID_SDK_ROOT:/home/chaos/Library/Android/sdk
+SETUVAR --export ANDROID_HOME:/usr/local/Caskroom/android\x2dsdk/4333796/
+SETUVAR --export ANDROID_SDK_ROOT:/usr/local/share/android\x2dsdk
 SETUVAR --export CHROME_EXECUTABLE:/Applications/Microsoft\x20Edge\x2eapp/Contents/MacOS/Microsoft\x20Edge
-SETUVAR --export FLUTTER_STORAGE_BASE_URL:https\x3a//mirrors\x2etuna\x2etsinghua\x2eedu\x2ecn/flutter
+SETUVAR --export FLUTTER_STORAGE_BASE_URL:https\x3a//mirror\x2esjtu\x2eedu\x2ecn
 SETUVAR --export HEX_CDN:https\x3a//hexpm\x2eupyun\x2ecom
 SETUVAR --export HEX_MIRROR:https\x3a//hexpm\x2eupyun\x2ecom
 SETUVAR --export HOMEBREW_API_DOMAIN:https\x3a//mirrors\x2etuna\x2etsinghua\x2eedu\x2ecn/homebrew\x2dbottles/api
@@ -14,7 +14,7 @@ SETUVAR --export HOMEBREW_PIP_INDEX_URL:https\x3a//pypi\x2etuna\x2etsinghua\x2ee
 SETUVAR --export JAVA_HOME:/Library/Java/JavaVirtualMachines/temurin\x2d8\x2ejdk/Contents/Home
 SETUVAR --export NODE_OPTIONS:\x2d\x2dopenssl\x2dlegacy\x2dprovider
 SETUVAR --export NVM_NODEJS_ORG_MIRROR:https\x3a//npmmirror\x2ecom/mirrors/node/
-SETUVAR --export PUB_HOSTED_URL:https\x3a//mirrors\x2etuna\x2etsinghua\x2eedu\x2ecn/dart\x2dpub
+SETUVAR --export PUB_HOSTED_URL:https\x3a//mirror\x2esjtu\x2eedu\x2ecn/dart\x2dpub
 SETUVAR __fish_initialized:3400
 SETUVAR _fisher_edc_2F_bass_files:\x7e/\x2econfig/fish/functions/__bass\x2epy\x1e\x7e/\x2econfig/fish/functions/bass\x2efish
 SETUVAR _fisher_jorgebucaran_2F_fish_2D_nvm_files:\x7e/\x2econfig/fish/functions/_nvm_index_update\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_list\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_version_activate\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_version_deactivate\x2efish\x1e\x7e/\x2econfig/fish/functions/nvm\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/nvm\x2efish\x1e\x7e/\x2econfig/fish/completions/nvm\x2efish
@@ -50,7 +50,7 @@ SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
-SETUVAR fish_user_paths:/Users/chaos/\x2elocal/bin\x1e/usr/local/opt/postgresql\x4017/bin\x1e/usr/local/opt/openjdk\x408/bin\x1e/home/chaos/\x2elocal/bin
+SETUVAR fish_user_paths:/Users/chaos/\x2elocal/bin\x1e/usr/local/opt/openjdk\x408/bin\x1e/home/chaos/\x2elocal/bin
 SETUVAR nvm_data:/Users/chaos/\x2elocal/share/nvm
 SETUVAR nvm_default_version:lts
 SETUVAR nvm_mirror:https\x3a//npmmirror\x2ecom/mirrors/node/

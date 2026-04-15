@@ -22,6 +22,13 @@ set -x XDG_CACHE_HOME $HOME/.cache
 #if not functions -q fisher; eval (curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher); end
 #fisher update
 set --universal nvm_default_version lts
-set --universal nvm_mirror https://npm.taobao.org/mirrors/node
+set --universal nvm_mirror https://npmmirror.com/mirrors/node/
 nvm use lts default
 
+
+# pnpm
+set -gx PNPM_HOME "/Users/chaos/Library/pnpm"
+set -gx PATH "$PNPM_HOME" $PATH
+# pnpm end
+set -gx HEX_MIRROR "https://hexpm.upyun.com"
+set -gx HEX_CDN "https://hexpm.upyun.com"
